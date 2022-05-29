@@ -4,6 +4,9 @@ import org.danalex.core.repositories.UuidCrudRepository;
 import org.danalex.file.entities.File;
 import org.springframework.stereotype.Repository;
 
+/**
+ * <p>Repository for {@link File}.</p>
+ */
 @Repository
 public interface FileRepository extends UuidCrudRepository<File> {
 
