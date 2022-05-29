@@ -12,11 +12,11 @@
 	</parent>
 	<groupId>org.danalex</groupId>
 	<artifactId>companion-file</artifactId>
-	<version>0.0.0.T-001-SNAPSHOT</version>
+	<version>0.0.0.dev.1</version>
 	<name>companion-file</name>
 	<properties>
 		<java.version>11</java.version>
-		<companion-core.version>0.0.0.T-001-SNAPSHOT</companion-core.version>
+		<companion-core.version>0.0.0.dev.1</companion-core.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -38,7 +38,7 @@
 		<dependency>
 			<groupId>org.danalex</groupId>
 			<artifactId>companion-core</artifactId>
-			<version>0.0.0.T-001-SNAPSHOT</version>
+			<version>${companion-core.version}</version>
 		</dependency>
 	</dependencies>
 	<build>
