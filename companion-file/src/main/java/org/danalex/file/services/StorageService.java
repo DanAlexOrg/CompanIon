@@ -17,11 +17,14 @@ public class StorageService {
 
     private final StorageConfig storageConfig;
 
+
     /**
      * <p>Upload file into the storage.</p>
      *
      * @param file File.
      * @param name File name.
+     *
+     * @throws IllegalStateException If saving of file was failed.
      */
     public void upload(MultipartFile file, String name) {
 
@@ -32,10 +35,11 @@ public class StorageService {
                 file.transferTo(new File(this.storageConfig.getUploadPath() + "/" + name));
             } catch (IOException e) {
 
-                throw new IllegalStateException("Failed to save file");
+                throw new IllegalStateException("Failed to save file" + name);
             }
         }
     }
+
 
     /**
      * <p>Create directory for uploading of files.</p>

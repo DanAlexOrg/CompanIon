@@ -14,6 +14,7 @@ public class WebConfig implements WebMvcConfigurer {
 
     private final StorageConfig storageConfig;
 
+
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry){
 

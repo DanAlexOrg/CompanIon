@@ -9,9 +9,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CompanionFileApplication {
 
+	/**
+	 * <p>Main method of service.</p>
+	 *
+	 * @param args Arguments of main method.
+	 */
 	public static void main(String[] args) {
 
 		SpringApplication.run(CompanionFileApplication.class, args);
 	}
-
 }

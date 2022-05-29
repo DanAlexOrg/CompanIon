@@ -38,5 +38,4 @@ public class File extends UuidEntity {
                 .fullname(this.getId() + this.getName())
                 .build();
     }
-
 }

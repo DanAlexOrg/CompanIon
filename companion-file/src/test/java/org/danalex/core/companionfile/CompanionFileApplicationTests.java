@@ -9,5 +9,4 @@ class CompanionFileApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
