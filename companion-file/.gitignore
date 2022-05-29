@@ -6,6 +6,8 @@ target/
 /mvnw
 /mvnw.cmd
 /files
+/.mvn/
+/src/main/resources/application.properties
 
 ### STS ###
 .apt_generated
@@ -36,4 +38,4 @@ build/
 .vscode/
 
 
-/.mvn/
+
