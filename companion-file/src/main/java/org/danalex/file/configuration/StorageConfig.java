@@ -14,7 +14,7 @@ public class StorageConfig {
     /**
      * <p>The path for download of file.</p>
      */
-    public static String DOWNLOAD_PATH = "/file/";
+    public static String DOWNLOAD_PATH = "/api/v1/file/";
 
 
     /**
