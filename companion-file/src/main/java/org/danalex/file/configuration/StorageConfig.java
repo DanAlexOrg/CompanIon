@@ -1,4 +1,4 @@
-package org.danalex.companionfile.configuration;
+package org.danalex.file.configuration;
 
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;
