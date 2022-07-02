@@ -3,22 +3,13 @@
 #-----------------------------------------------------------------------------------------------------------------------
 
 # Service name
-spring.application.name = companion-file
+spring.application.name=companion-balance
 
 # Port
-server.port =
-
-# Database connection
-spring.datasource.url =
-spring.datasource.username =
-spring.datasource.password =
-
-# JPA settings
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-
-# Storage settings
-upload.path =
+server.port = 9009
 
 # Eureka settings
-eureka.client.service-url.defaultZone =
+eureka.client.registerWithEureka = false
+eureka.client.fetchRegistry = false
+eureka.server.wait-time-in-ms-when-sync-empty = 0
+eureka.renewalPercentThreshold = 0.85
