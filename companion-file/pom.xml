@@ -12,7 +12,7 @@
 	</parent>
 	<groupId>org.danalex</groupId>
 	<artifactId>companion-file</artifactId>
-	<version>0.0.0.dev.1.T-002-SNAPSHOT</version>
+	<version>0.0.0.dev.2</version>
 	<name>companion-file</name>
 	<properties>
 		<java.version>11</java.version>

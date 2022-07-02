@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.danalex</groupId>
 	<artifactId>companion-balance</artifactId>
-	<version>0.0.0.dev.1.T-002-SNAPSHOT</version>
+	<version>0.0.0.dev.2</version>
 	<name>companion-balance</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
