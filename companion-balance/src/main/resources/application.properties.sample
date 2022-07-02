@@ -1,0 +1,15 @@
+#-----------------------------------------------------------------------------------------------------------------------
+# Settings of service companion-file
+#-----------------------------------------------------------------------------------------------------------------------
+
+# Service name
+spring.application.name=companion-balance
+
+# Port
+server.port = 9009
+
+# Eureka settings
+eureka.client.registerWithEureka = false
+eureka.client.fetchRegistry = false
+eureka.server.wait-time-in-ms-when-sync-empty = 0
+eureka.renewalPercentThreshold = 0.85
