@@ -2,6 +2,9 @@
 # Settings of service companion-file
 #-----------------------------------------------------------------------------------------------------------------------
 
+# Service name
+spring.application.name = companion-file
+
 # Port
 server.port =
 
@@ -16,3 +19,6 @@ spring.jpa.show-sql=true
 
 # Storage settings
 upload.path =
+
+# Eureka settings
+eureka.client.service-url.defaultZone =
